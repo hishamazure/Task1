@@ -29,8 +29,12 @@ Note: I understand that we can use maven to include the dependencies, however, t
 
 ## To Run the application:
 
-### In command line, run:
+### In command line (MAC or Linux), run:
 Java -cp "co2.jar:lib/*" com.me.Tester1 --end CityName1 --start CityName2 --transportation-method trasportationMethod
+
+### In command line (WINDOWS), run:
+Java -cp "co2.jar;lib/*" com.me.Tester1 --end CityName1 --start CityName2 --transportation-method trasportationMethod
+
 
 ### Example:
 Java -cp "co2.jar:lib/*" com.me.Tester1 --end Berlin --start=Hamburg --transportation-method medium-diesel-car
